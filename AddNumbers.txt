@@ -1,0 +1,26 @@
+public int GetSum(int a, int b) 
+{
+        int c = a;
+        int d = b;
+        
+        
+        if(b < 0)
+        {
+             while(d < 0)
+             {
+                 c--;
+                 d++;
+             }
+        }
+        else
+	{
+            while(d > 0)
+            {
+                c++;
+                d--;
+            }
+        }
+        
+        
+        return c;
+}
