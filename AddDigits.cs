@@ -26,6 +26,10 @@ public class Solution {
                     a = a/10;
                 }
         }
+        else if( num == 10)
+        {
+                    a = num/10;
+        }
         else
         {
             a = num;
